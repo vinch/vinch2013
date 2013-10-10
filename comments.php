@@ -19,7 +19,7 @@
 		<li class="<?php echo $oddcomment; ?>" id="comment-<?php comment_ID() ?>">
 			
 			<?php if (get_comment_author_url() != '') : ?>
-			<a href="<?php comment_author_url(); ?>"><img alt="<?php comment_author(); ?>" class="gravatar" src="http://www.gravatar.com/avatar.php?gravatar_id=<? echo md5($comment->comment_author_email); ?>&default=http%3A%2F%2Fwww.vinch.be%2Fattic%2Fblank_gravatar.png&size=50&rating=G" /></a>
+				<a href="<?php comment_author_url(); ?>" rel="nofollow"><img alt="<?php comment_author(); ?>" class="gravatar" src="http://www.gravatar.com/avatar.php?gravatar_id=<? echo md5($comment->comment_author_email); ?>&default=http%3A%2F%2Fwww.vinch.be%2Fattic%2Fblank_gravatar.png&size=50&rating=G" /></a>
 			<?php else : ?>
 				<img alt="<?php comment_author(); ?>" class="gravatar" src="http://www.gravatar.com/avatar.php?gravatar_id=<? echo md5($comment->comment_author_email); ?>&default=http%3A%2F%2Fwww.vinch.be%2Fattic%2Fblank_gravatar.png&size=50&rating=G" />
 			<?php endif; ?>
