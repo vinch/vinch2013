@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
-	<title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
+	<title><?php wp_title(); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 	<link rel="alternate" type="application/rss+xml" title="Le blog de Vincent Battaglia" href="http://feeds.feedburner.com/vinch" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
