@@ -27,7 +27,7 @@ $(document).ready(function() {
 	    return false;
 	});
 	
-	$('#search_link').click(function() {
+	$('nav .inner .search').click(function() {
 	    showSearch();
 	    return false;
 	});

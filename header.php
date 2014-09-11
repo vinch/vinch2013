@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 	<link rel="alternate" type="application/rss+xml" title="Le blog de Vincent Battaglia" href="http://feeds.feedburner.com/vinch" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -31,15 +32,17 @@
 <body <?php body_class(); ?>>
 
 <header>
-	<h1><a href="<?php bloginfo('url'); ?>/">Hello, I’m <strong>Vinch</strong></a></h1>
-	<div class="subtitle">And this is my blog.</div>
+	<h1><a href="http://v1n.ch">Hello, I’m <strong>Vinch</strong></a></h1>
+	<div class="subtitle">And this is my website.</div>
 </header>
 
 <nav>
 	<div class="inner">
-		<a href="http://v1n.ch/about">About</a> ·
-		<a href="<?php bloginfo('url'); ?>/contact">Contact</a> ·
-		<a href="#" id="search_link">Search</a>
+		<a href="http://v1n.ch">Home</a>
+		<a href="http://v1n.ch/about">About</a>
+		<a href="<?php bloginfo('url'); ?>/" class="active">Blog</a>
+		<a href="http://v1n.ch/experiments">Experiments</a>
+		<a href="#" class="search fa fa-search"></a>
 	</div>
 </nav>
 

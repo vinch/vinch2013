@@ -85,19 +85,39 @@ body > nav {
   margin-bottom: 50px;
   font-size: 20px;
   background: #E5EAF1;
-  padding: 10px 0;
 }
 body > nav .inner {
   max-width: 600px;
   padding: 0 20px;
   margin: 0 auto;
+  height: 47px;
+  color: #666;
 }
 body > nav .inner a {
+  float: left;
+  display: block;
   color: #666;
+  line-height: 47px;
+  padding: 0 15px;
+  border-right: 1px solid white;
+}
+body > nav .inner a:first-child {
+  border-left: 1px solid white;
 }
 body > nav .inner a:hover {
   color: #333;
-  border: 0;
+  border-bottom: 0;
+  background: rgba(255,255,255,0.5);
+}
+body > nav .inner a.active {
+  color: #333;
+  pointer-events: none;
+  background: #FFF;
+}
+body > nav .inner a.search {
+  float: right;
+  border-left: 1px solid white;
+  font-size: 25px;
 }
 
 #container {
