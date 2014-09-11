@@ -12,9 +12,21 @@
 	<![endif]-->
   <script type="text/javascript" src="http://use.typekit.com/pek2yuw.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <meta name="google-translate-customization" content="d2cb1b370495bdd2-939990c76313e922-gef469feeccf0a079-c" />
 	<meta name="google-site-verification" content="fu4OZZhZ-OTLDfSe2syR1Y620bAiXFYhfNlO0XQh3SE" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="google-translate-customization" content="d2cb1b370495bdd2-939990c76313e922-gef469feeccf0a079-c" />
+	<script>
+	  (function(s,u,b,hh,uu,bb){
+	    uu=document.createElement(u);
+	    uu.setAttribute('data-subhub',hh);
+	    uu.setAttribute('data-panel',true);
+	    uu.async=1;uu.src=b;
+	    bb=s.getElementsByTagName(u)[0];
+	    bb.parentNode.insertBefore(uu,bb);
+	  })(document, 'script',
+	    'https://assets.subhub.io/v1/subhub.js',
+	    'ae7f8c20-774e-41a2-896d-daccac18a490');
+	</script>
 </head>
 <body <?php body_class(); ?>>
 
