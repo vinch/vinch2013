@@ -37,10 +37,22 @@
 
 <nav>
 	<div class="inner">
-		<a href="http://v1n.ch">Home</a>
-		<a href="http://v1n.ch/about">About</a>
-		<a href="<?php bloginfo('url'); ?>/" class="active">Blog</a>
-		<a href="http://v1n.ch/experiments">Experiments</a>
+		<a href="http://v1n.ch">
+			<i class="fa fa-home"></i>
+			<span>Home</span>
+		</a>
+		<a href="http://v1n.ch/about">
+			<i class="fa fa-user"></i>
+			<span>About</span>
+		</a>
+		<a href="<?php bloginfo('url'); ?>/" class="active">
+			<i class="fa fa-book"></i>
+			<span>Blog</span>
+		</a>
+		<a href="http://v1n.ch/experiments">
+			<i class="fa fa-flask"></i>
+			<span>Experiments</span>
+		</a>
 		<a href="#" class="search fa fa-search"></a>
 	</div>
 </nav>

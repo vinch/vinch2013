@@ -10,6 +10,7 @@
 			<?php wp_get_archives('type=monthly&show_post_count=1') ?>
 		</div>
 	</div>
+	<span id="copyright">&copy; <?php echo date('Y') ?> Vincent Battaglia</span>
 </footer>
 
 <div id="google_translate_element"></div>
