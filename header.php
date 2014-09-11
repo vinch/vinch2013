@@ -15,7 +15,6 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta name="google-site-verification" content="fu4OZZhZ-OTLDfSe2syR1Y620bAiXFYhfNlO0XQh3SE" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<meta name="google-translate-customization" content="d2cb1b370495bdd2-939990c76313e922-gef469feeccf0a079-c" />
 	<script>
 	  (function(s,u,b,hh,uu,bb){
 	    uu=document.createElement(u);
