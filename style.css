@@ -678,7 +678,7 @@ article .content .media .media_description {
   body > nav .inner a span {
     display: none;
   }
-  body > footer {
+  body > footer #copyright {
     padding-bottom: 50px;
     margin-top: 50px;
   }
